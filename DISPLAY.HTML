@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .block {
+      display: block;
+      background: red;
+      padding: 5px;
+      margin: 5px 0;
+      line-height: 50px;
+    
+    }
+
+    .inline {
+      display: inline;
+      background: lightgreen;
+      padding: 5px;
+      margin:10px   /*not set width or higt*/
+    }
+
+    .inline-block {
+      display: inline-block;
+      background: rgb(171, 160, 67);
+      width: 200px;
+      padding: 5px;
+    
+    }
+
+    .none {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Display: block</h3>
+  <div class="block">I am block (takes full width)</div>
+
+  <h3>Display: inline</h3>
+  <span class="inline">I am inline</span>
+  <span class="inline">Me too</span>
+
+  <h4>Display: inline-block</h4>
+  <div class="inline-block">Inline-block 1</div>
+  <div class="inline-block">Inline-block 2</div>
+
+  <h3>Display: none</h3>
+  <div class="none">You can't see me!</div>
+
+</body>
+</html>

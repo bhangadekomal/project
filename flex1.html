@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .flex-container  {
+      display: grid;
+      position:sticky;
+      
+      flex-direction: row;         /*we can apply row | column | row-reverse | column-reverse */
+      flex-wrap: nowrap;             /* wrap(start to end) | nowrap | wrap-reverse */
+      justify-content: flex-end;     /* center | flex-start | flex-end | space-between | space-around */
+      align-items: center;         /* center | flex-start | flex-end | stretch | baseline */
+      align-content: center;  
+      justify-content:space-around;     /* Only works multiple rows */
+      
+      height: 300px;
+      background-color: rgb(17, 9, 9);
+      border: 5px solid #ed1717;
+      padding: 100px;
+    }
+
+    .flex-item {
+      background-color: rgb(242, 49, 15);
+      color: rgb(14, 14, 14);
+      padding: 20px;
+      margin: 10px;
+      width: 100px;
+      text-align: center;
+
+
+
+
+      font-size: 18px;
+    }
+    .class{
+      color: aqua;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>  Flexbox </h2>
+
+  <div class="flex-container">
+    <div class="flex-item">10</div>
+    <div class="flex-item">20</div>
+    <div class="flex-item">30</div>
+    <div class="flex-item">40</div>
+    <div class="flex-item">50</div>
+    <div class="flex-item">60</div>
+  </div>
+  
+
+</body>
+</html>
